@@ -1,0 +1,16 @@
+---
+# tasks file for nginx
+- name: Install Nginx
+  apt:
+    name: nginx
+    state: latest
+
+- name: Start Nginx
+  service:
+    name: nginx
+    state: started
+  notify: Restart Nginx
+- name: Deploy webpage
+  copy:
+    src: files/index.html
+    dest: /var/www/html/index.html

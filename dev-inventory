@@ -1,0 +1,7 @@
+[servers]
+dev_1 ansible_host=107.21.69.99
+
+[servers:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/.ssh/ansible-roles-key.pem
