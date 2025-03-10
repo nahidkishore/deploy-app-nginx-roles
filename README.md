@@ -2,7 +2,6 @@
 
 ## **Ansible Role Project**
 
-```markdown
 # Simple Web App Deployment using Ansible and Nginx
 
 This project demonstrates how to deploy a simple web application using **Ansible** and **Nginx**. The project includes:
