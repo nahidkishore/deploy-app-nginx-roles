@@ -1,7 +1,10 @@
 Role Name
 =========
+# Simple Web App Deployment using Ansible and Nginx
 
-A brief description of the role goes here.
+This project demonstrates how to deploy a simple web application using **Ansible** and **Nginx**. The project includes:
+- Ansible roles to install and configure Nginx.
+- Deployment of a static HTML file (`index.html`) to the web server.
 
 Requirements
 ------------
